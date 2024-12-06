@@ -6,6 +6,9 @@ class Resultado extends StatelessWidget {
 
   const Resultado(this.pontuacao, this._reiniciarQuestionario);
 
+
+
+
   String get fraseResultado {
     if (pontuacao < 8) {
       return 'Parabéns!!';
